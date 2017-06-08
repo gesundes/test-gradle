@@ -27,7 +27,7 @@ uploadArchives {
         repository(url: "http://10.0.2.10:8081/repository/maven-snapshots") {
             authentication(userName: "admin", password: "admin123")
         }
-        pom.version = "1.0-SNAPSHOT"
+        pom.version = "1.1-SNAPSHOT"
         pom.artifactId = "my-app"
         pom.groupId = "com.mycompany.app"
     }
